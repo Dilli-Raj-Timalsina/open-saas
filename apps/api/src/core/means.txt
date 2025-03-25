@@ -1,0 +1,1 @@
+1. both graphql and rest api , including dahsboard, sidepages, admin panel etc.

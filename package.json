@@ -1,0 +1,24 @@
+{
+  "name": "open-saas",
+  "private": true,
+  "scripts": {
+    "clear-cache": "find ./../open-saas -name .turbo -type d -exec rm -rf {} + -o -name *.turbo.* -type f -delete",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.1.3",
+    "typescript": "^5.4.5"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  }
+}

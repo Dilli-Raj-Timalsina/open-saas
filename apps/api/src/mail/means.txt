@@ -1,0 +1,1 @@
+1. all email related configuration and services including email templates and etc .
